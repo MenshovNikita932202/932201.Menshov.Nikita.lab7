@@ -1,0 +1,56 @@
+.box{
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  gap: 10px;
+}
+.button-container{
+  display: flex;
+  gap: 10px;
+}
+
+.addSquare{
+  background-color:red;
+  border: solid 2px;
+  opacity: 0.8;
+}
+
+.addSquare:hover{
+  transition: 0.3s;
+  background-color: #fffc1c;
+}
+
+.addTriangle{
+  background-color: blue;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  border: solid 2px;  
+  opacity: 0.8;
+}
+
+.addTriangle:hover{
+  transition: 0.3s;
+  background-color: #fffc1c;
+}
+
+.addCircle{
+  border-radius: 50%;
+  background-color: green;
+  border: solid 2px; 
+  opacity: 0.8;
+}
+
+.addCircle:hover{
+  transition: 0.3s;
+  background-color: #fffc1c;
+}
+
+
+button{
+  padding: 0 10px;
+}
+input{
+  width: 250px;
+}
